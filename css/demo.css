@@ -1,0 +1,45 @@
+.carousel {
+ margin: 3em auto;
+ max-width: 500px;
+ position: relative;
+ font-family: sans-serif; 
+ color: #333;
+ opacity: .8;
+}
+
+.carousel b {
+}
+
+.figcaption {
+  float: right;
+  font-size: .9em;
+  
+
+}
+.carousel-item img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.carousel-nav {
+  position: absolute;
+  top: -20px; 
+  /* right: -48px; */
+  z-index: 4;
+  /* width: 100%; */
+}
+.carousel-nav a {
+  text-decoration: none;
+  font-size: 1.1em; 
+  color: #333;
+  padding: 4px;
+
+}
+.carousel-nav a.prev {
+   
+  
+}
+.carousel-nav a.next {
+ 
+  
+}

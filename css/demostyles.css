@@ -1,0 +1,54 @@
+.carousel {
+ margin: 10px auto;
+ max-width: 500px;
+ position: relative;
+ font-family: sans-serif; 
+ color: #333;
+ opacity: .8;
+}
+
+.carousel b {
+}
+
+.figcaption {
+  font-size: .8em;
+  position: absolute;
+  top: 0;
+  left: 510px;
+
+}
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.carousel-nav {
+  /* position: absolute; */
+  /* top: 0; */
+  z-index: 4;
+  width: 100%;
+}
+.carousel-nav a {
+  text-decoration: none;
+  font-size: 1em; /* .8em; */
+  /* background: #fff; */
+  color: #333;
+  
+ /* padding: .5em; */
+ /* position: absolute; */
+ /* top: 0; */
+ /* font-weight: bold; */
+}
+.carousel-nav a.prev {
+  float: left; 
+  /* left: 0; */
+}
+.carousel-nav a.next {
+ float: right; 
+  /* right: 0; */
+}
+.carousel-nav-paginated .carousel-active-page a {
+	background: #333;
+	color: #fff;
+	opacity: .8;
+}
